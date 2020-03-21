@@ -1,7 +1,7 @@
 {
   "name": "hexo-replace",
   "version": "1.0.0",
-  "description": "",
+  "description": "Text replacement tool of hexo.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,9 +10,14 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "git+https://github.com/Aicirou/hexo-replace.git"
+  },
+  "homepage": "https://github.com/Aicirou/hexo-replace#readme",
+  "bugs": {
+    "url": "https://github.com/Aicirou/hexo-replace/issues"
   },
   "dependencies": {
-    "shelljs": "^0.8.3"
+    "hexo-fs": "^0.2.2",
+    "hexo-log": "^0.2.0"
   }
 }
