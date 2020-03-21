@@ -6,7 +6,7 @@
 hexo replace 张三 李四
 ```
 在不加任何参数的情况下默认扫描`source`、`theme`下的文件,即`-g`
-你也可以添加`-r`参数来自定义扫描路径，它可以是正规表达式（regular expression）、函数、或是一种类似于Express 的路径字串，例如：
+你也可以添加`-r`参数来自定义扫描路径，它可以是正则表达式（regular expression）、函数、或是一种类似于Express 的路径字符串，例如：
 
 ```
 posts/:id => posts/89 
@@ -30,6 +30,10 @@ Options:
   -g, --global  Global match string
   -r, --rule    You can use a regular expression, a function or an Express-style pattern string.
 ```
+
+## TODO
+1. 替换记录备份
+2. 开放扩展接口
 
 ## Lisense
 MIT
